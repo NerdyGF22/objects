@@ -1,6 +1,6 @@
 .center-side{
-    border-left:2px solid rgb(114, 37, 28);
-    border-right:2px solid rgb(114, 37, 28);
+    border-left:2px solid grey;
+    border-right:2px solid grey;
 }
 .center-side ,.right-side, .left-side{
     padding-top: 20px;
@@ -19,11 +19,12 @@ border-bottom-left-radius: 20px !important;
 }
 .header{
     padding-bottom: 20px;
-    border-bottom: 1px solid rgb(114, 37, 28);
+    border-bottom: 1px solid grey;
 }
 .form-control{
 border-top-right-radius: 10px !important;
 border-bottom-right-radius: 10px !important;
+background-color: rgb(22, 24, 28);
 }
 .image{
     width: 100%;
@@ -88,3 +89,10 @@ border-bottom-right-radius: 10px !important;
     display: flex;
     justify-content: space-between;
 }
+.form-control:focus {
+    color: white;
+    background-color: rgb(22, 24, 28);;
+    border-color: grey;
+    outline: 0;
+    box-shadow: none;
+  }
