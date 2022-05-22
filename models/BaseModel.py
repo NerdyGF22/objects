@@ -11,6 +11,7 @@ from sqlalchemy.ext.declarative import declarative_base
 import uuid
 
 time = "%Y_%m-%dT%H:%M:%S.%f"
+Base = declarative_base()
 
 class BaseModel:
     """ BaseModel from which future classses will be drived"""
