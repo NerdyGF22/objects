@@ -1,6 +1,6 @@
 .center-side{
-    border-left:2px solid grey;
-    border-right:2px solid grey;
+    border-left:2px solid #1ab188;
+    border-right:2px solid #1ab188;
 }
 .right-side, .left-side{
     padding-top: 20px;
@@ -19,7 +19,7 @@ border-bottom-left-radius: 20px !important;
 }
 .header{
     padding-bottom: 20px;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid #1ab188;
 }
 .form-control{
 border-top-right-radius: 10px !important;
@@ -116,7 +116,7 @@ background-color: rgb(22, 24, 28);
 }
 .follow-btn{
     margin-top: 10px;
-    margin-right: 15px;
+    margin-right: 20px;
     font-weight: bold;
-    border-radius: 15px;
+    border: black;
 }
