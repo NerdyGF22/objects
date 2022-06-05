@@ -4,12 +4,7 @@
 import cmd
 from datetime import datetime
 import models
-from models.amenity import Amenity
 from models.base_model import BaseModel
-from models.city import City
-from models.place import Place
-from models.review import Review
-from models.state import State
 from models.user import User
 from models.post import Post
 from models.like import Like
@@ -17,8 +12,8 @@ from models.Comment import Comment
 from models.follow import Follow
 import shlex  # for splitting the line along spaces except in double quotes
 
-classes = {"Amenity": Amenity, "BaseModel": BaseModel, "City": City,
-           "Place": Place, "Review": Review, "State": State, "User": User , "Post":Post, "Like":Like , "Comment":Comment, "Follow":Follow}
+classes = { "BaseModel": BaseModel,
+           "User": User , "Post":Post, "Like":Like , "Comment":Comment, "Follow":Follow}
 
 
 
